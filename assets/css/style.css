@@ -79,7 +79,8 @@ h1 {
 
 /* Display line under page user is currently viewing*/
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #8083FF;
+    color: #8083FF;
 }
 
 /*Navbar*/
@@ -219,4 +220,12 @@ footer {
  footer p {
     font-size: larger;
  }
+}
+
+/*Media query small laptops and larger (992px and up)*/
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        color: #8083FF;
+    }
+
 }
