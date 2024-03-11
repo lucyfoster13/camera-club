@@ -15,16 +15,24 @@ body {
     color: black;
 }
 
+/*Class that can be used to center text throughout site*/
+.text-center {
+    text-align: center;
+}
+
 header {
-    background-color: black;
+    background-color: #C8FCEA;
+    color: aliceblue;
+  
+    
 }
 
 main {
-    background-color: yellow;
+    background-color: white;
     /*Push footer down by making main section take up all surplus space*/
     flex: 1 0 auto;
 }
 
 footer {
-    background-color: green;
+    background-color: #C8FCEA;
 }
