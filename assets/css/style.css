@@ -107,6 +107,7 @@ main {
     background-color: #ffffff;
     /*Push footer down by making main section take up all surplus space*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /*Footer*/
