@@ -208,4 +208,13 @@ footer {
  main {
     margin-top: 100px;
  }
+
+ /*Footer*/
+ footer {
+    font-size: 125%;
+ }
+
+ footer p {
+    font-size: larger;
+ }
 }
