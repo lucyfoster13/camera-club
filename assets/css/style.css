@@ -54,6 +54,10 @@ header a {
     color: inherit;
 }
 
+header a:hover {
+    color: #8083FF;
+}
+
 h1 {letter-spacing: 2px;
 color: #252525;}
 
