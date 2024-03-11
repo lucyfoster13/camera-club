@@ -18,7 +18,9 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Oswald", sans-serif;
     letter-spacing: 2px;
     color: #3a3a3a;
@@ -38,7 +40,8 @@ ul {
 .text-center {
     text-align: center;
 }
- /*Header*/
+
+/*Header*/
 header {
     background-color: #C8FCEA;
     color: #3a3a3a;
@@ -61,19 +64,21 @@ header a:hover {
     color: #8083FF;
 }
 
-h1 {letter-spacing: 2px;
-color: #252525;}
+h1 {
+    letter-spacing: 2px;
+    color: #252525;
+}
 
 #menu {
     letter-spacing: 2px;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
 /* Display line under page user is currently viewing*/
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -133,6 +138,7 @@ footer {
     padding-bottom: 5px;
     padding-top: 1px;
 }
+
 .contact-info a {
     color: #3a3a3a;
     text-decoration: none;
@@ -150,6 +156,7 @@ footer {
 .socials h2 {
     padding-bottom: 1rem;
 }
+
 .socials i {
     color: #3a3a3a;
     font-size: 180%;
@@ -164,3 +171,4 @@ footer {
 .socials li {
     display: inline;
 }
+
