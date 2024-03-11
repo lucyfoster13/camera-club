@@ -71,14 +71,20 @@ footer {
     flex-direction: column;
     color: #3a3a3a;
     margin: 0 auto;
+    padding-top: 5px;
 }
 
 .contact-info {
     width: 100%;
     color: #3a3a3a;
     align-items: center;
+    margin-bottom: 2em;
 }
 
+.contact-info p {
+    padding-bottom: 5px;
+    padding-top: 1px;
+}
 .contact-info a {
     color: #3a3a3a;
     text-decoration: none;
@@ -93,6 +99,9 @@ footer {
     justify-content: center;
 }
 
+.socials h2 {
+    padding-bottom: 1rem;
+}
 .socials i {
     color: #3a3a3a;
     font-size: 180%;
