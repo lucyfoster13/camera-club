@@ -1,3 +1,6 @@
+/*Google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
 /*Overwrite default style settings*/
 * {
     padding: 0;
@@ -12,6 +15,17 @@ body {
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px;
+    color: #3a3a3a;
+}
+
+h1 {
+    text-transform: uppercase;
 }
 
 /*Remove bullet points from any lists throughout site*/
