@@ -74,6 +74,18 @@ color: #252525;}
     border-bottom: 1px solid #3a3a3a;
 }
 
+/*Navbar*/
+nav {
+    position: absolute;
+    background-color: #C8FCEA;
+    z-index: 5;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 1rem;
+    left: 0;
+    display: none;
+}
+
 /*Main*/
 main {
     background-color: #ffffff;
