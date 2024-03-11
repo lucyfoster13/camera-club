@@ -137,6 +137,7 @@ footer {
 .contact-info p {
     padding-bottom: 5px;
     padding-top: 1px;
+    font-size: 90%;
 }
 
 .contact-info a {
@@ -155,11 +156,12 @@ footer {
 
 .socials h2 {
     padding-bottom: 1rem;
+    font-size: 100%;
 }
 
 .socials i {
     color: #3a3a3a;
-    font-size: 180%;
+    font-size: 150%;
     margin: 0 2%;
     padding: 1% 5% 3%;
 }
