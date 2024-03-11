@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: black;
+    color: #3a3a3a;
 }
 
 /*Remove bullet points from any lists throughout site*/
@@ -26,8 +26,8 @@ ul {
 }
  /*Header*/
 header {
-    background-color: white;
-    color: black;
+    background-color: #C8FCEA;
+    color: #3a3a3a;
     position: fixed;
     z-index: 5;
     width: 100%;
@@ -53,12 +53,12 @@ color: #252525;}
 
 /* Display line under page user is currently viewing*/
 .active{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /*Main*/
 main {
-    background-color: white;
+    background-color: #ffffff;
     /*Push footer down by making main section take up all surplus space*/
     flex: 1 0 auto;
 }
@@ -69,19 +69,18 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    color: white;
-    color: black;
+    color: #3a3a3a;
     margin: 0 auto;
 }
 
 .contact-info {
     width: 100%;
-    color: black;
+    color: #3a3a3a;
     align-items: center;
 }
 
 .contact-info a {
-    color: black;
+    color: #3a3a3a;
     text-decoration: none;
 }
 
@@ -95,7 +94,7 @@ footer {
 }
 
 .socials i {
-    color: black;
+    color: #3a3a3a;
     font-size: 180%;
     margin: 0 2%;
     padding: 1% 5% 3%;
