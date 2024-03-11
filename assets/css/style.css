@@ -42,6 +42,20 @@ header a {
 
 h1 {letter-spacing: 2px;
 color: #252525;}
+
+#menu {
+    letter-spacing: 2px;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+/* Display line under page user is currently viewing*/
+.active{
+    border-bottom: 1px solid black;
+}
+
 /*Main*/
 main {
     background-color: white;
