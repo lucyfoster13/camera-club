@@ -35,6 +35,13 @@ header {
     padding: 0 1rem;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {letter-spacing: 2px;
+color: #252525;}
 /*Main*/
 main {
     background-color: white;
