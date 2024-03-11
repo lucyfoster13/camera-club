@@ -204,6 +204,10 @@ footer {
         margin: 0 1rem;
     }
 
+    h1:hover {
+        color: #8083FF;
+    }
+
    nav li {
     font-size: 125%;
    }
