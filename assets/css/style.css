@@ -272,10 +272,61 @@ footer {
 
   /*Signup Form Styles*/
 
-  .radio-buttons {
-    display: flex;
-    flex-direction: row;
-  }
+  #signup-form {
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: #C8FCEA;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px; /* margin added to push form position up footer */
+    color: black;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+.signup-details {
+    margin-top: 10px;
+
+}
+
+#message {
+    width: 200px;
+}
+
+.join-button {
+    background-color: whitesmoke;
+    color: #252525;
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.join-button:hover {
+    
+        background-color: #C8FCEA;
+      
+}
+
 
 /*Media query tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
