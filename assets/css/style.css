@@ -121,21 +121,10 @@ main {
     width: 100%;
 }
 
-.hero-button {
-    background-color: white;
-    color: #3a3a3a;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    padding: .75rem;
-    box-shadow: 2px 2px 2px #3a3a3a;
-    display: inline-block;
-}
-
 /* Container needed to position the button. Adjust the width as needed */
 .container {
     position: relative;
-    width: 50%;
+    width: 100%;
   }
   
   /* Make the image responsive */
@@ -147,22 +136,29 @@ main {
   /* Style the button and place it in the middle of the container/image */
   .container .hero-button {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
+    background-color: white;
+    color: #3a3a3a;
+    padding: .5rem;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    box-shadow: 2px 2px 2px #3a3a3a;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    letter-spacing: 1px;
   }
   
-  .container .btn:hover {
-    background-color: black;
+  .container .hero-button:hover {
+    background-color: #C8FCEA;
   }
+  
+
+
 /*Footer*/
 footer {
     background-color: #C8FCEA;
