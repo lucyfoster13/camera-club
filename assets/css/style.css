@@ -366,4 +366,15 @@ footer {
         padding: 1% 3% 5%;
     }
 
+    /*404 Page styling for larger screens*/
+    .error-img {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 35%;
+        height: auto;
+    }
+
+    .error-text {
+        margin-bottom: 15px;
+    }
 }
