@@ -116,6 +116,11 @@ main {
     margin-top: 47px;
 }
 
+#hero-img img {
+    height: auto;
+    width: 100%;
+}
+
 /*Footer*/
 footer {
     background-color: #C8FCEA;
