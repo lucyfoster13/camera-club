@@ -41,6 +41,14 @@ ul {
     text-align: center;
 }
 
+/*Class that can be used to center images etc*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 /*Header*/
 header {
     background-color: #C8FCEA;
@@ -236,7 +244,7 @@ footer {
     width: 75%;
 }
 .error-text {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .container .error-button {
