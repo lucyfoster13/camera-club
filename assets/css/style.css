@@ -223,8 +223,13 @@ footer {
 /*404 page styles*/
 
 .error-img {
-    margin-top: 20px;
+    margin-top: 100px;
     margin-bottom: 20px;
+    width: 50%;
+}
+
+.error-text {
+    margin-bottom: 50px;
 }
 /*Media query tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
