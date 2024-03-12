@@ -223,16 +223,17 @@ footer {
 /*404 page styles*/
 
 .error-img {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 20px;
     width: 100%;
-    max-height: 100px;
+    height: auto;
     align-items: center;
     justify-content: center;
 }
 
 .error-img img {
     object-fit: cover;
+    width: 75%;
 }
 .error-text {
     margin-bottom: 50px;
@@ -240,13 +241,11 @@ footer {
 
 .container .error-button {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     background-color: whitesmoke;
     color: #252525;
-    padding: .5rem;
+    padding: 1rem;
     border: none;
     cursor: pointer;
     border-radius: 5px;
