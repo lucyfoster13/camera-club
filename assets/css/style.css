@@ -225,14 +225,44 @@ footer {
 .error-img {
     margin-top: 100px;
     margin-bottom: 20px;
-    width: 50%;
+    width: 100%;
+    max-height: 100px;
     align-items: center;
     justify-content: center;
 }
 
+.error-img img {
+    object-fit: cover;
+}
 .error-text {
     margin-bottom: 50px;
 }
+
+.container .error-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    color: #252525;
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+  
+  .container .error-button:hover {
+    background-color: #C8FCEA;
+  }
+
+
 /*Media query tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
     /*Header*/
