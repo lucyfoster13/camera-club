@@ -136,21 +136,22 @@ main {
   /* Style the button and place it in the middle of the container/image */
   .container .hero-button {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: white;
-    color: #3a3a3a;
+    background-color: whitesmoke;
+    color: #252525;
     padding: .5rem;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px #3a3a3a;
+    box-shadow: 2px 2px 2px black;
     text-align: center;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 600;
     letter-spacing: 1px;
+    font-size: 12px;
   }
   
   .container .hero-button:hover {
@@ -258,6 +259,14 @@ footer {
  main {
     margin-top: 100px;
  }
+
+   /*Make hero image button bigger on larger screens*/
+   .container .hero-button {
+    top: 70%;
+    font-size: xx-large;
+    top: 50%;
+    left: 50%;
+  }
 
  /*Footer*/
  footer {
