@@ -394,6 +394,23 @@ textarea {
 .contact-info p {
     font-size: 20px;
 }
+
+/*Signup Form*/
+
+#signup-form {
+    width: 75%;
+}
+
+#signup {
+    display: flex;
+    justify-content: center;
+   margin-top: 100px;
+}
+
+#signup-page {
+    background-color: rgba(250,235,215, 0.5);
+}
+
 }
 /*Media query small laptops and larger (992px and up)*/
 @media screen and (min-width: 992px) {
@@ -434,5 +451,15 @@ textarea {
 
     .error-text {
         margin-bottom: 15px;
+    }
+
+    /*Signup Form*/
+    #signup {
+        margin-top: auto;
+    
+    }
+
+    #signup-form {
+        width:50%;
     }
 }
