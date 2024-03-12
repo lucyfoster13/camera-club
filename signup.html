@@ -39,9 +39,40 @@
     </header>
     <!--Main Content-->
     <main>
-        
-    
-    
+        <section id="signup" class="text-center">
+            <form id="signup-form" action="thankyou.html">
+                <h2>Become our newest member!</h2>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" placeholder="Ansel" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" placeholder="Adams" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" placeholder="ansel@yosemite.photo" required>
+                <br>
+                <h5>What kind of photographer are you?</h5>
+                <div class="radio-buttons center">
+                    <div>
+                        <label for="road">Beginner</label>
+                        <input type="radio" name="photographer_type" id="beginner" value="beginner" required checked>
+                    </div>
+                    <div>
+                        <label for="trail">Intermediate</label>
+                        <input type="radio" name="photographer_type" id="intermediate" value="intermediate" required>
+                    </div>
+                    <div>
+                        <label for="both">Pro</label>
+                        <input type="radio" name="photographer_type" id="pro" value="pro" required>
+                    </div>
+                </div>
+                <label for="message">Any questions or suggestions?</label>
+                <br>
+                <textarea id="message"class="center" name="message" placeholder="What's on your mind?" style="height: 200px;" required></textarea>
+                    <br>
+                <button type="submit" class="join-button">Sign Me Up!</button>
+            </form>
+        </section>
     </main>
     <!--Footer-->
     <footer>
