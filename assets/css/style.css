@@ -277,8 +277,14 @@ footer {
  footer p {
     font-size: larger;
  }
+
+ .contact-info {
+    margin-left: 3rem;
 }
 
+.contact-info p {
+    font-size: 20px;
+}
 /*Media query small laptops and larger (992px and up)*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
