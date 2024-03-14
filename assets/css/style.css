@@ -69,7 +69,7 @@ header a {
 }
 
 header a:hover {
-    color: #8083FF;
+    color: #5255ff;
 }
 
 h1 {
@@ -87,8 +87,8 @@ h1 {
 
 /* Display line under page user is currently viewing*/
 .active {
-    border-bottom: 1px solid #8083FF;
-    color: #8083FF;
+    border-bottom: 1px solid #5255ff;
+    color: #5255ff;
 }
 
 /*Navbar*/
@@ -247,6 +247,7 @@ main {
     top: 50%;
     left: 50%;
     margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 
 .gallery-link a {
@@ -304,7 +305,7 @@ footer {
 }
 
 .contact-info a:hover {
-    color: #8083FF;
+    color: #5255ff;
 }
 
 .socials {
@@ -325,7 +326,7 @@ footer {
 }
 
 .socials i:hover {
-    color: #8083FF;
+    color: #5255ff;
 }
 
 .socials li {
@@ -474,7 +475,7 @@ textarea {
     }
 
     #logo:hover {
-        color: #8083FF;
+        color: #5255ff;
     }
 
     nav li {
@@ -497,6 +498,10 @@ textarea {
 
     .gallery-link .hero-button {
         width: 20%;
+    }
+
+    .gallery-link h2 {
+        font-size: 15px;
     }
 
     /*Gallery*/
@@ -549,7 +554,7 @@ textarea {
 /*Media query small laptops and larger (992px and up)*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        color: #8083FF;
+        color: #5255ff;
     }
 
     #about-cc-section {
