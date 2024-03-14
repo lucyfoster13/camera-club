@@ -353,13 +353,10 @@ footer {
     margin-bottom: 25px;
 }
 
- .error-button {
-    position: absolute;
-    top: 40%;
-    left: 50%;
+.error-button {
     background-color: whitesmoke;
     color: #252525;
-    padding: 1rem;
+    padding: .5rem;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -369,12 +366,14 @@ footer {
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 12px;
+    font-weight: 200;
 }
 
 .error-button:hover {
-    background-color: #C8FCEA;
-}
 
+    background-color: #C8FCEA;
+
+}
 
 /*Signup Form Styles*/
 
