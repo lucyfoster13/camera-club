@@ -107,6 +107,18 @@ Fix: A span with added with text explaining the function of the feature. The tex
 
 ![Signup](docs/testing-images/signup-lighthouse.jpg)
 
+### Functional Testing
+
+- Testing was performed to ensure all navigation links redirected to the correct pages as per design. This was done by clicking on the navigation links on each page.
+- The form on the signup page was tested to ensure it functioned as expected when all required data was entered and when any required data was omitted.
+- Testing was performed on the Font Awesome icons and contact links in the footer to ensure that each one opened in a new tab and that each one had the correct purple hover effect.
+
+In all scenarios, the functions behaved as expected.
+
+### Validator Testing
+
+
+
 
 
 ## Technologies
