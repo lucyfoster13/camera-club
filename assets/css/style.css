@@ -161,6 +161,10 @@ main {
     letter-spacing: 1px;
     font-size: 12px;
   }
+
+  .gallery-link .hero-button {
+    width: 20%;
+  }
   
   .container .hero-button:hover {
     background-color: #C8FCEA;
@@ -205,7 +209,42 @@ main {
     border-radius: 5%;
   }
 
+.gallery-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
 
+
+
+.gallery-link button {
+    background-color: whitesmoke;
+    color: #252525;
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 10%;
+    top: 70%;
+    font-size: 12px;
+    top: 50%;
+    left: 50%;
+    margin-top: .5rem;
+}
+
+.gallery-link a {
+    text-decoration: none;
+}
+
+.gallery-link button:hover {
+    background-color: #C8FCEA;
+}
 
 /*Footer*/
 footer {
@@ -396,7 +435,7 @@ textarea {
         margin: 0 1rem;
     }
 
-    h1:hover {
+    #logo:hover {
         color: #8083FF;
     }
 
@@ -415,6 +454,7 @@ textarea {
     top: 50%;
     left: 50%;
   }
+
 
  /*Footer*/
  footer {
