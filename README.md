@@ -117,8 +117,11 @@ In all scenarios, the functions behaved as expected.
 
 ### Validator Testing
 
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+* HTML
+    * 
+
+* CSS
+    * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
 
 ![CSS Validator Results](docs/testing-images/css-validator.jpg)
 
