@@ -162,10 +162,7 @@ main {
     font-size: 12px;
   }
 
-  .gallery-link .hero-button {
-    width: 20%;
-  }
-  
+
   .container .hero-button:hover {
     background-color: #C8FCEA;
   }
@@ -455,6 +452,11 @@ textarea {
     left: 50%;
   }
 
+
+  .gallery-link .hero-button {
+    width: 20%;
+  }
+  
 
  /*Footer*/
  footer {
