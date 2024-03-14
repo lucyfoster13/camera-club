@@ -165,7 +165,43 @@ main {
   .container .hero-button:hover {
     background-color: #C8FCEA;
   }
+
+  #homepage {
+  background-color: rgba(250,235,215, 0.5);
+  }
+
+  #about-cc-section h1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+ 
+  .about-cc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    padding-bottom: 2rem;
+   
+  }
   
+  .events-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .events-img img {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    border-radius: 5%;
+  }
+
 
 
 /*Footer*/
@@ -388,7 +424,7 @@ textarea {
  }
 
  .contact-info {
-    margin-left: 3rem;
+    margin-left: 1%;
 }
 
 .contact-info p {
@@ -432,8 +468,8 @@ textarea {
     .contact-info {
         width: 50%;
         text-align: left;
-        padding-left: 2%;
-        padding-top: 1%;
+        padding-left: 2em;
+        padding-top: 2%;
     }
 
     .socials i {
