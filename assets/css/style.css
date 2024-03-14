@@ -257,6 +257,18 @@ main {
     background-color: #C8FCEA;
 }
 
+/*Gallery Page*/
+#gallery-photos img {
+    width:100%;
+    line-height: 1em;
+    height: auto;
+}
+
+/*Push photos down under header*/
+#gallery-photos {
+    padding-top: 55px;
+}
+
 /*Footer*/
 footer {
     background-color: #C8FCEA;
