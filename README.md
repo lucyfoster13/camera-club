@@ -174,6 +174,7 @@ The project will have been cloned on your local machine and be ready to use.
 ### Code
 * Code on how to add links that open the phone app and email app when clicked: https://tinyurl.com/campaignmonitortutorial.
 * Code on how to place the call-to-action button in the center of the landing image: https://www.w3schools.com/howto/howto_css_button_on_image.asp.
+* Code on how to add visually-hidden text for screen-readers: https://tinyurl.com/visually-hidden-text
 
 ### Media 
 * All images were downloaded from [Unsplash](https://unsplash.com) and [Pexels](https://www.pexels.com/).
