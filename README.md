@@ -101,6 +101,12 @@ Fix: A span with added with text explaining the function of the feature. The tex
 
 ### Lighthouse Testing
 
+![Home](docs/testing-images/home-lighthouse.jpg)
+
+![Gallery](docs/testing-images/gallery-lighthouse.jpg)
+
+![Signup](docs/testing-images/signup-lighthouse.jpg)
+
 
 
 ## Technologies
