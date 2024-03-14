@@ -353,7 +353,7 @@ footer {
     margin-bottom: 25px;
 }
 
-.container .error-button {
+ .error-button {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -371,7 +371,7 @@ footer {
     font-size: 12px;
 }
 
-.container .error-button:hover {
+.error-button:hover {
     background-color: #C8FCEA;
 }
 
