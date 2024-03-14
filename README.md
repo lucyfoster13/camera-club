@@ -96,6 +96,13 @@ Testing was focused to ensure the following criteria were met:
 - HTML page lang attribute has been set
 - Aria properties have been implemented correctly
 
+Found Issue: The toggle icon for the dropdown menu in the navigation bar was not correctly labelled for screen readers.
+Fix: A span with added with text explaining the function of the feature. The text was then styled to be visible only to a screen-reader.
+
+### Lighthouse Testing
+
+
+
 ## Technologies
 * HTML
     * The structure of the website was developed using HTML as the main language.
