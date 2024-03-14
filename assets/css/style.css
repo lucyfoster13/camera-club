@@ -116,6 +116,20 @@ nav {
     font-size: 2rem;
 }
 
+.sr-only {
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px); 
+    clip-path: polygon(0px 0px, 0px 0px, 0px 0px); 
+    height: 1px; 
+    margin: -1px; 
+    overflow: hidden; 
+    padding: 0; 
+    position: absolute; 
+    width: 1px; 
+    white-space: nowrap; 
+}
+
 /*Main*/
 main {
     background-color: #ffffff;
@@ -491,8 +505,6 @@ textarea {
 #signup-page {
     background-color: rgba(250,235,215, 0.5);
 }
-
-
 
 }
 /*Media query small laptops and larger (992px and up)*/
