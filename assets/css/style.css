@@ -47,7 +47,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+}
 
 /*Header*/
 header {
@@ -117,17 +117,17 @@ nav {
 }
 
 .sr-only {
-    border: 0; 
-    clip: rect(0 0 0 0); 
-    -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px); 
-    clip-path: polygon(0px 0px, 0px 0px, 0px 0px); 
-    height: 1px; 
-    margin: -1px; 
-    overflow: hidden; 
-    padding: 0; 
-    position: absolute; 
-    width: 1px; 
-    white-space: nowrap; 
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+    clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
 }
 
 /*Main*/
@@ -147,16 +147,16 @@ main {
 .container {
     position: relative;
     width: 100%;
-  }
-  
-  /* Make the image responsive */
-  .container img {
+}
+
+/* Make the image responsive */
+.container img {
     width: 100%;
     height: auto;
-  }
-  
-  /* Style the button and place it in the middle of the container/image */
-  .container .hero-button {
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .hero-button {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -174,28 +174,28 @@ main {
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 12px;
-  }
+}
 
 
-  .container .hero-button:hover {
+.container .hero-button:hover {
     background-color: #C8FCEA;
-  }
+}
 
-  #homepage {
-  background-color: rgba(250,235,215, 0.5);
-  }
+#homepage {
+    background-color: rgba(250, 235, 215, 0.5);
+}
 
-  #about-heading {
+#about-heading {
     padding: .5rem;
-  }
+}
 
-  #about-heading h1 {
+#about-heading h1 {
     padding-top: 1.5rem;
     text-decoration: underline;
-  }
+}
 
- 
-  .about-cc {
+
+.about-cc {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -203,22 +203,22 @@ main {
     align-items: center;
     padding: .5rem;
 
-  }
-  
-  .events-img {
+}
+
+.events-img {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .events-img img {
+.events-img img {
     width: 100%;
     height: auto;
     padding: 5%;
     border-radius: 5%;
-  }
+}
 
 .gallery-link {
     display: flex;
@@ -259,14 +259,17 @@ main {
 
 /*Gallery Page*/
 #gallery-photos img {
-    width:100%;
+    width: 100%;
     line-height: 1em;
     height: auto;
+    border-radius: 2%;
 }
 
 /*Push photos down under header*/
 #gallery-photos {
     padding-top: 55px;
+    padding-left: .3em;
+    padding-right: .3em;
 }
 
 /*Footer*/
@@ -344,6 +347,7 @@ footer {
     object-fit: cover;
     width: 75%;
 }
+
 .error-text {
     margin-bottom: 25px;
 }
@@ -364,23 +368,24 @@ footer {
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 12px;
-  }
-  
-  .container .error-button:hover {
+}
+
+.container .error-button:hover {
     background-color: #C8FCEA;
-  }
+}
 
 
-  /*Signup Form Styles*/
+/*Signup Form Styles*/
 
-  #signup-form {
+#signup-form {
     margin-top: 25px;
     border-radius: 5px;
     background-color: #C8FCEA;
     padding: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 25px; /* margin added to push form position up footer */
+    margin-bottom: 25px;
+    /* margin added to push form position up footer */
     color: black;
 }
 
@@ -423,14 +428,24 @@ textarea {
 }
 
 .join-button:hover {
-    
-        background-color: #C8FCEA;
-      
+
+    background-color: #C8FCEA;
+
 }
+
+/*Media query for large or landscape phones (576px and up)*/
+@media screen and (min-width: 576px) {
+    #gallery-photos {
+        column-count: 2;
+        column-gap: .3em;
+    }
+}
+
 
 
 /*Media query tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
+
     /*Header*/
     nav {
         display: block;
@@ -443,7 +458,7 @@ textarea {
     #menu {
         display: flex;
     }
-    
+
     #menu li {
         padding-right: 2rem;
     }
@@ -462,63 +477,75 @@ textarea {
         color: #8083FF;
     }
 
-   nav li {
-    font-size: 125%;
-   }
- /*Main*/
- main {
-    margin-top: 100px;
- }
+    nav li {
+        font-size: 125%;
+    }
 
-   /*Make hero image button bigger on larger screens*/
-   .container .hero-button {
-    top: 70%;
-    font-size: xx-large;
-    top: 50%;
-    left: 50%;
-  }
+    /*Main*/
+    main {
+        margin-top: 100px;
+    }
+
+    /*Make hero image button bigger on larger screens*/
+    .container .hero-button {
+        top: 70%;
+        font-size: xx-large;
+        top: 50%;
+        left: 50%;
+    }
 
 
-  .gallery-link .hero-button {
-    width: 20%;
-  }
-  
+    .gallery-link .hero-button {
+        width: 20%;
+    }
 
- /*Footer*/
- footer {
-    font-size: 125%;
-    flex-direction: row;
- }
+    /*Gallery*/
+    #gallery-photos {
+        column-count: 3;
+    }
+    
+    #gallery-photos {
+        padding-top: 115px;
+        padding-left: .3em;
+        padding-right: .3em;
+    }
 
- footer p {
-    font-size: larger;
- }
+    /*Footer*/
+    footer {
+        font-size: 125%;
+        flex-direction: row;
+    }
 
- .contact-info {
-    margin-left: 1%;
+    footer p {
+        font-size: larger;
+    }
+
+    .contact-info {
+        margin-left: 1%;
+    }
+
+    .contact-info p {
+        font-size: 20px;
+    }
+
+    /*Signup Form*/
+
+    #signup-form {
+        width: 75%;
+    }
+
+    #signup {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    #signup-page {
+        background-color: rgba(250, 235, 215, 0.5);
+    }
+
 }
 
-.contact-info p {
-    font-size: 20px;
-}
-
-/*Signup Form*/
-
-#signup-form {
-    width: 75%;
-}
-
-#signup {
-    display: flex;
-    justify-content: center;
-   margin-top: 100px;
-}
-
-#signup-page {
-    background-color: rgba(250,235,215, 0.5);
-}
-
-}
 /*Media query small laptops and larger (992px and up)*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
@@ -537,6 +564,11 @@ textarea {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+    }
+
+    /*Gallery*/
+    #gallery-photos {
+        column-count: 4;
     }
 
     footer {
@@ -577,10 +609,10 @@ textarea {
     /*Signup Form*/
     #signup {
         margin-top: auto;
-    
+
     }
 
     #signup-form {
-        width:50%;
+        width: 50%;
     }
 }
