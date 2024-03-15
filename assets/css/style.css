@@ -382,14 +382,13 @@ footer {
 }
 
 #signup-form {
-    margin-top: 25px;
+    margin-top: 10%;
     border-radius: 5px;
     background-color: #C8FCEA;
     padding: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 25px;
-    /* margin added to push form position up footer */
+    margin-bottom: 10%;
     color: black;
 }
 
@@ -611,12 +610,8 @@ textarea {
     }
 
     /*Signup Form*/
-    #signup {
-        margin-top: auto;
-
-    }
-
     #signup-form {
-        width: 50%;
+        margin-top: .5em;
+        margin-bottom: 3em;
     }
 }
