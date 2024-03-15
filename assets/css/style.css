@@ -8,7 +8,6 @@
     box-sizing: border-box;
 }
 
-
 /*Generic styling*/
 body {
     min-height: 100vh;
@@ -41,7 +40,7 @@ ul {
     text-align: center;
 }
 
-/*Class that can be used to center images etc*/
+/*Class that can be used to center images*/
 .center {
     display: block;
     margin-left: auto;
@@ -116,6 +115,7 @@ nav {
     font-size: 2rem;
 }
 
+/*Invisible text, only for screen-readers*/
 .sr-only {
     border: 0;
     clip: rect(0 0 0 0);
@@ -133,11 +133,12 @@ nav {
 /*Main*/
 main {
     background-color: #ffffff;
-    /*Push footer down by making main section take up all surplus space*/
+/*Push footer down by making main section take up all surplus space*/
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
+/*Make hero image responsive*/
 #hero-img img {
     height: auto;
     width: 100%;
@@ -176,11 +177,11 @@ main {
     font-size: 12px;
 }
 
-
 .container .hero-button:hover {
     background-color: #C8FCEA;
 }
 
+/*Home page styles*/
 #homepage {
     background-color: rgba(250, 235, 215, 0.5);
 }
@@ -219,14 +220,13 @@ main {
     border-radius: 5%;
 }
 
+/*Link to gallery from bottom of home page*/
 .gallery-link {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
 }
-
-
 
 .gallery-link button {
     background-color: whitesmoke;
@@ -271,6 +271,105 @@ main {
     padding-left: .3em;
     padding-right: .3em;
     background-color: rgba(250, 235, 215, 0.5);
+}
+
+/*404 page styles*/
+.error-img {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-img img {
+    object-fit: cover;
+    width: 75%;
+}
+
+.error-text {
+    margin-bottom: 25px;
+}
+
+.error-button {
+    background-color: whitesmoke;
+    color: #252525;
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.error-button:hover {
+    background-color: #C8FCEA;
+}
+
+/*Signup Form Styles*/
+#signup-page {
+    background-color: rgba(250, 235, 215, 0.5);
+}
+
+#signup-form {
+    margin-top: 10%;
+    border-radius: 5px;
+    background-color: #C8FCEA;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10%;
+    color: black;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+.signup-details {
+    margin-top: 10px;
+
+}
+
+#message {
+    width: 200px;
+}
+
+.join-button {
+    background-color: whitesmoke;
+    color: #252525;
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.join-button:hover {
+
+    background-color: #C8FCEA;
+
 }
 
 /*Footer*/
@@ -332,119 +431,14 @@ footer {
     display: inline;
 }
 
-
-/*404 page styles*/
-
-.error-img {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    width: 100%;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-}
-
-.error-img img {
-    object-fit: cover;
-    width: 75%;
-}
-
-.error-text {
-    margin-bottom: 25px;
-}
-
-.error-button {
-    background-color: whitesmoke;
-    color: #252525;
-    padding: .5rem;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px black;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-size: 12px;
-    font-weight: 200;
-}
-
-.error-button:hover {
-
-    background-color: #C8FCEA;
-
-}
-
-/*Signup Form Styles*/
-
-#signup-page {
-    background-color: rgba(250, 235, 215, 0.5);
-}
-
-#signup-form {
-    margin-top: 10%;
-    border-radius: 5px;
-    background-color: #C8FCEA;
-    padding: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10%;
-    color: black;
-}
-
-input[type=text],
-input[type=email],
-select,
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid black;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical
-}
-
-.signup-details {
-    margin-top: 10px;
-
-}
-
-#message {
-    width: 200px;
-}
-
-.join-button {
-    background-color: whitesmoke;
-    color: #252525;
-    padding: .5rem;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px black;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-size: 12px;
-    font-weight: 200;
-}
-
-.join-button:hover {
-
-    background-color: #C8FCEA;
-
-}
-
 /*Media query for large or landscape phones (576px and up)*/
+/*Gallery display*/
 @media screen and (min-width: 576px) {
     #gallery-photos {
         column-count: 2;
         column-gap: .3em;
     }
 }
-
-
 
 /*Media query tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
@@ -497,7 +491,7 @@ textarea {
         left: 50%;
     }
 
-
+    /*Link to gallery from bottom of home page*/
     .gallery-link .hero-button {
         width: 20%;
     }
@@ -517,6 +511,17 @@ textarea {
         padding-right: .3em;
     }
 
+    /*Signup Form*/
+    #signup-form {
+        width: 75%;
+    }
+
+    #signup {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
     /*Footer*/
     footer {
         font-size: 125%;
@@ -533,18 +538,6 @@ textarea {
 
     .contact-info p {
         font-size: 20px;
-    }
-
-    /*Signup Form*/
-
-    #signup-form {
-        width: 75%;
-    }
-
-    #signup {
-        display: flex;
-        justify-content: center;
-        margin-top: 100px;
     }
 
 }
