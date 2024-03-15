@@ -220,6 +220,23 @@ main {
     border-radius: 5%;
 }
 
+/*Event Info section on homepage*/
+#events-home {
+    background: url(../images/hero-img.webp) no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#events-home div {
+    color: #3a3a3a;
+    background-color: rgb(245, 245, 245, 0.55);
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid #3a3a3a;
+}
+
 /*Link to gallery from bottom of home page*/
 .gallery-link {
     display: flex;
