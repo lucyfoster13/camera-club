@@ -28,6 +28,11 @@ Camera Club is a webiste to advertise and promote a fictional photography meetup
     * This feature makes it easy for the user to jump straight to the gallery to view photos of past events, having just read about them.
     ![Gallery Button](docs/readme-images/gallery-link.jpg)
 
+* Event Information
+    * This section gives the user more detailed information on the types of events hosted by the club.
+    * The user can get a greater sense of the atmosphere of the club and decide which events they might be interested in attending.
+
+
 * Footer
     * The footer section includes the club's phone number, email adress and links to social media pages. The phone number and the email address contain clickable links that will open the device's native phone and email apps. The social media icons are all clickable links too, which open in a new tab.
     * The footer allows the user to stay connected, in whatever way suits them best, with just one easy click.
@@ -54,7 +59,8 @@ Camera Club is a webiste to advertise and promote a fictional photography meetup
     ![404](docs/readme-images/404.jpg)
 
 ### Features Left to Implement
-    * As a future enhancement, another feature could be added on the Home Page, under the About Camera Club section. This feature would include a feature that gives more specific details on the three main kinds of events run by the club: photo walks, casual social gatherings, and formal talks and portfolio reviews. Each section would have a clickable link to the corresponding section on the gallery page, allowing the user to jump directly to specific event photos.
+    * As a future enhancement, I would like to make all three sub-sections of the event information section clickable links that jump to the corresponding section of photos in the gallery. For example, if the user clicks on the Portfolio Review subsection, they will be redirected to the part of the gallery page that shows the portfolio review photos. This can be implemented using a gallery filter.
+
 
 ## Testing 
 
@@ -210,6 +216,7 @@ The project will have been cloned on your local machine and be ready to use.
 ### Content 
 * The addition of the club's phone number and email address as clickable links that open the user's native phone and/or email app was inspired by my mentor Gareth McGirr's site: https://gareth-mcgirr.github.io/tacos-travels/ 
 * All text content on the site was written by the developer and is entirely fabricated.
+* The addition and layout of the event information section at the bottom of the homepage was taken from the Love Running project and then styled to fit Camera Club's aesthetic.
 
 
 ### Code
