@@ -1,13 +1,12 @@
 # Camera Club
 
-Camera Club is a webiste to advertise and promote a fictional photography meetup group. Users can learn about the ethos of the group, the kinds of events that take place, view images from past events and sign up to become a member.
+Camera Club is a webiste to advertise and promote a fictional photography meetup group. Users can learn about the ethos of the group, the kinds of events that take place, view images from past events and sign up to become a member. The live version of the site can be viewed [here:](https://lucyfoster13.github.io/camera-club/index.html)
 
 ![Mockup](docs/readme-images/mockup.jpg)
 
 ## Features 
 
 ### Existing Features
-
 * Navigation Bar
     * Featured on all three pages, the navigation bar contains links to the Home, Gallery and Signup pages and is responsive on all devices. On smaller screens, a burger icon can be clicked to reveal the menu in dropdown format.
     * Allows users to easily navigate between all pages on the site. The dropdown menu on smaller-screened devices allows for a cleaner, neater design. 
@@ -31,7 +30,7 @@ Camera Club is a webiste to advertise and promote a fictional photography meetup
 * Event Information
     * This section gives the user more detailed information on the types of events hosted by the club.
     * The user can get a greater sense of the atmosphere of the club and decide which events they might be interested in attending.
-
+    ![Event Information](docs/readme-images/event-info.jpg)
 
 * Footer
     * The footer section includes the club's phone number, email adress and links to social media pages. The phone number and the email address contain clickable links that will open the device's native phone and email apps. The social media icons are all clickable links too, which open in a new tab.
@@ -61,11 +60,9 @@ Camera Club is a webiste to advertise and promote a fictional photography meetup
 ### Features Left to Implement
     * As a future enhancement, I would like to make all three sub-sections of the event information section clickable links that jump to the corresponding section of photos in the gallery. For example, if the user clicks on the Portfolio Review subsection, they will be redirected to the part of the gallery page that shows the portfolio review photos. This can be implemented using a gallery filter.
 
-
 ## Testing 
 
 ### Responsiveness
-
 All pages were tested to ensure responsiveness on screen sizes from 280px and upwards on Chrome, Safari, Firefox and Opera browsers.
 
 Steps to test:
@@ -96,7 +93,6 @@ Website was also opened on the following devices and no responsive issues were f
 - Apple Macbook Pro
 
 ### Accessibility
-
 [Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
 
 Testing was focused to ensure the following criteria were met:
@@ -113,7 +109,6 @@ Found Issue: The toggle icon for the dropdown menu in the navigation bar was not
 Fix: A span with added with text explaining the function of the feature. The text was then styled to be visible only to a screen-reader.
 
 ### Lighthouse Testing
-
 ![Home](docs/testing-images/home-lighthouse.jpg)
 
 ![Gallery](docs/testing-images/gallery-lighthouse.jpg)
@@ -121,7 +116,6 @@ Fix: A span with added with text explaining the function of the feature. The tex
 ![Signup](docs/testing-images/signup-lighthouse.jpg)
 
 ### Functional Testing
-
 - Testing was performed to ensure all navigation links redirected to the correct pages as per design. This was done by clicking on the navigation links on each page.
 - The form on the signup page was tested to ensure it functioned as expected when all required data was entered and when any required data was omitted.
 - Testing was performed on the Font Awesome icons and contact links in the footer to ensure that each one opened in a new tab and that each one had the correct purple hover effect.
@@ -129,7 +123,6 @@ Fix: A span with added with text explaining the function of the feature. The tex
 In all scenarios, the functions behaved as expected.
 
 ### Validator Testing
-
 * HTML
   * No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
@@ -147,7 +140,6 @@ In all scenarios, the functions behaved as expected.
     * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
 
 ![CSS Validator Results](docs/testing-images/css-validator.jpg)
-
 
 
 ## Technologies
@@ -177,7 +169,6 @@ In all scenarios, the functions behaved as expected.
 ## Deployment
 
 ### Version Control
-
 The site was created using the Gitpod code editor and pushed to github to the remote repository ‘camera-club’.
 
 The following git commands were used throughout development to push code to the remote repo:
@@ -189,7 +180,6 @@ The following git commands were used throughout development to push code to the 
 ```git push``` - This command was used to push all committed code to the remote repository on github.
 
 ### Deployment to Github Pages
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the menu on left select 'Pages'
@@ -200,7 +190,6 @@ The following git commands were used throughout development to push code to the 
 The live link can be found here - https://lucyfoster13.github.io/camera-club/
 
 ### Clone the Repository Code Locally
-
 Navigate to the GitHub Repository you want to clone to use locally:
 
 - Click on the code drop down button
@@ -217,7 +206,6 @@ The project will have been cloned on your local machine and be ready to use.
 * The addition of the club's phone number and email address as clickable links that open the user's native phone and/or email app was inspired by my mentor Gareth McGirr's site: https://gareth-mcgirr.github.io/tacos-travels/ 
 * All text content on the site was written by the developer and is entirely fabricated.
 * The addition and layout of the event information section at the bottom of the homepage was taken from the Love Running project and then styled to fit Camera Club's aesthetic.
-
 
 ### Code
 * Code to add links that open the phone app and email app when clicked: https://tinyurl.com/campaignmonitortutorial.
