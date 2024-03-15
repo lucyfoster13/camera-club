@@ -377,6 +377,10 @@ footer {
 
 /*Signup Form Styles*/
 
+#signup-page {
+    background-color: rgba(250, 235, 215, 0.5);
+}
+
 #signup-form {
     margin-top: 25px;
     border-radius: 5px;
@@ -542,10 +546,6 @@ textarea {
         display: flex;
         justify-content: center;
         margin-top: 100px;
-    }
-
-    #signup-page {
-        background-color: rgba(250, 235, 215, 0.5);
     }
 
 }
