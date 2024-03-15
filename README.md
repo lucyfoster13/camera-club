@@ -2,9 +2,7 @@
 
 Camera Club is a webiste to advertise and promote a fictional photography meetup group. Users can learn about the ethos of the group, the kinds of events that take place, view images from past events and sign up to become a member.
 
-<!--Insert mockup image here
-![Mockup] (docs/readme-images/*********)
-!-->
+![Mockup](docs/readme-images/mockup.jpg)
 
 ## Features 
 
@@ -13,38 +11,47 @@ Camera Club is a webiste to advertise and promote a fictional photography meetup
 * Navigation Bar
     * Featured on all three pages, the navigation bar contains links to the Home, Gallery and Signup pages and is responsive on all devices. On smaller screens, a burger icon can be clicked to reveal the menu in dropdown format.
     * Allows users to easily navigate between all pages on the site. The dropdown menu on smaller-screened devices allows for a cleaner, neater design. 
+    ![Nav Bar](docs/readme-images/nav-bar.jpg)
 
 * Landing page image
     * The landing includes a hero image of several analog film cameras, with a call-to-action button positioned in the middle.
     * This section immediately grabs the user's eye and shows them what the topic of the page is. The "Become a Member" call-to-action button immediately informs the user that this is some sort of club and, if clicked, will bring them directly to the signup page.
+    ![Landing](docs/readme-images/landing.jpg)
 
 * About Camera Club Section
     * The About Camera Club section allows the user to learn more about the ethos of the club and the kind of events they can look forward to.
     * This section will assure the user that all are welcome to join the club, that they do not need to have any prior photography experience, and that as a member they can enjoy plenty of social and educational gatherings.
+    ![About Camera Club](docs/readme-images/about-cc.jpg)
 
 * Invitation to jump to gallery
     * This section invites the user to view photos of past events with a button that takes them directly to the gallery page.
-    * This feature makes it easy for the user to jump straight to the gallery to view photos of past events, having just read about them. 
+    * This feature makes it easy for the user to jump straight to the gallery to view photos of past events, having just read about them.
+    ![Gallery Button](docs/readme-images/gallery-link.jpg)
 
 * Footer
     * The footer section includes the club's phone number, email adress and links to social media pages. The phone number and the email address contain clickable links that will open the device's native phone and email apps. The social media icons are all clickable links too, which open in a new tab.
     * The footer allows the user to stay connected, in whatever way suits them best, with just one easy click.
+    ![Footer](docs/readme-images/footer.jpg)
 
 * Gallery
     * The gallery page provides the user with a visual guide to the different kinds of events hosted by the club.
     * The gallery is valuable to the user as they will be able to get a feel for the types of events and meetups they can go to if they become a member. They will see that there is a varied mix of ages, genders and ethnicites and that the events range from informal dinners to more structured talks.
+    ![Gallery](docs/readme-images/gallery.jpg)
 
 * SignUp Page
     * This page provides the user with a straight-forward form to get signed up as a member. The user will be required to submit their full name and email address in order to submit the form. There is also a text box for the user to include an optional message to the organisers. 
     * This allows the user to quickly and easily become a member of the club. It also allows them to ask a question or write a message to the organisers, if they wish.
+    ![Signup Form](docs/readme-images/signup-form.jpg)
 
 * Thank You Page
     * On successful submission of the signup form, the user will be redirected to a page welcoming them to the club and thanking them for becoming a member.
     * This features shows the user that they are welcomed and appreciated. It also makes it clear that their membership has been received.
+    ![Thank You](docs/readme-images/thankyou.jpg)
 
 * 404 Page
     * A custom 404 page will display if the user naviagtes to a broken link.
     * The 404 page will allow the user to easily navigate back to the website using all of the links in the header and footer, as well as a button that will bring them to the homepage.
+    ![404](docs/readme-images/404.jpg)
 
 ### Features Left to Implement
     * As a future enhancement, another feature could be added on the Home Page, under the About Camera Club section. This feature would include a feature that gives more specific details on the three main kinds of events run by the club: photo walks, casual social gatherings, and formal talks and portfolio reviews. Each section would have a clickable link to the corresponding section on the gallery page, allowing the user to jump directly to specific event photos.
