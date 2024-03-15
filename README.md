@@ -118,7 +118,17 @@ In all scenarios, the functions behaved as expected.
 ### Validator Testing
 
 * HTML
-    * 
+  * No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+
+![Home HTML Validator Results](docs/testing-images/home-validator.jpg)
+
+![Gallery HTML Validator Results](docs/testing-images/gallery-validator.jpg)
+
+![Signup HTML Validator Results](docs/testing-images/signup-validator.jpg)
+
+![Thank You HTML Validator Results](docs/testing-images/thankyou-validator.jpg)
+
+![404 HTML Validator Results](docs/testing-images/404-validator.jpg)
 
 * CSS
     * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
